@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#33000000">
+
+    <!-- Shape used for the ripple mask (rounded box) -->
+    <item android:id="@android:id/mask">
+        <shape>
+            <solid android:color="@android:color/white" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+    <!-- Base rounded box; tinted per-action via backgroundTint -->
+    <item android:drawable="@drawable/overlay_action_bg" />
+</ripple>
+

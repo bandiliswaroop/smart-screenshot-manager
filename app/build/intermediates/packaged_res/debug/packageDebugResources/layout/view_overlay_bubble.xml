@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/bubble"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_margin="12dp"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/overlay_panel_background"
+        android:elevation="10dp"
+        android:layout_marginTop="6dp">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart screenshot actions"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#212121" />
+
+        <TextView
+            android:id="@+id/txtDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Latest screenshot"
+            android:textSize="13sp"
+            android:textColor="#757575" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#EEEEEE" />
+
+        <!-- Keep option -->
+        <TextView
+            android:id="@+id/btnKeepHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/overlay_action_bg"
+            android:backgroundTint="#FFFBE9E7"
+            android:text="⏳  Keep for 1 hour"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#BF360C" />
+
+        <!-- Display presets -->
+        <TextView
+            android:id="@+id/btnDisplay15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/overlay_action_bg"
+            android:backgroundTint="#FFE3F2FD"
+            android:text="📲  Display 15 min (scan)"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#0D47A1" />
+
+        <TextView
+            android:id="@+id/btnDisplay30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/overlay_action_bg"
+            android:backgroundTint="#FFE3F2FD"
+            android:text="📲  Display 30 min"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#0D47A1" />
+
+        <TextView
+            android:id="@+id/btnDisplay60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/overlay_action_bg"
+            android:backgroundTint="#FFE3F2FD"
+            android:text="📲  Display 1 hour"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#0D47A1" />
+
+        <!-- Custom time row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editCustomMinutes"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:hint="min"
+                android:inputType="number"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/btnDisplayCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:paddingVertical="6dp"
+                android:paddingHorizontal="10dp"
+                android:background="@drawable/overlay_action_bg"
+                android:backgroundTint="#FFE8EAF6"
+                android:text="⏱  Display custom time"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#283593" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#EEEEEE" />
+
+        <!-- Delete / OCR / Dismiss -->
+        <TextView
+            android:id="@+id/btnDeleteShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/overlay_action_bg"
+            android:backgroundTint="#FFFFEBEE"
+            android:text="🗑  Delete after share"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#B71C1C" />
+
+        <TextView
+            android:id="@+id/btnExtractText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/overlay_action_bg"
+            android:backgroundTint="#FFEDE7F6"
+            android:text="🧠  Extract text"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#4A148C" />
+
+        <TextView
+            android:id="@+id/btnDismiss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/overlay_action_bg"
+            android:backgroundTint="#FFF5F5F5"
+            android:text="✕  Dismiss"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#757575" />
+
+    </LinearLayout>
+
+</merge>
+

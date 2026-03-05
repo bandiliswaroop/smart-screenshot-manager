@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Animated video background (place bg_loop.mp4 in res/raw) -->
+    <VideoView
+        android:id="@+id/bgVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:keepScreenOn="true" />
+
+    <!-- Dark overlay so text is readable -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000" />
+
+    <!-- Foreground content -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Screenshot Manager"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:id="@+id/txtSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto actions for every screenshot"
+            android:textColor="#DDFFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/txtTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="4dp" />
+
+        <LinearLayout
+            android:id="@+id/buttonGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/overlay_panel_background"
+            app:layout_constraintTop_toBottomOf="@id/txtSubtitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_margin="24dp">
+
+            <Button
+                android:id="@+id/btnStartService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Screenshot Manager" />
+
+            <Button
+                android:id="@+id/btnTestBubble"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test Bubble (Show Now)"
+                android:layout_marginTop="12dp" />
+
+            <Button
+                android:id="@+id/btnSoundSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sound settings"
+                android:layout_marginTop="12dp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+

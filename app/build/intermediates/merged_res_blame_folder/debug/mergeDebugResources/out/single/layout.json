@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-mergeDebugResources-38:\\layout\\view_overlay_bubble.xml",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\layout\\view_overlay_bubble.xml"
+    },
+    {
+        "merged": "com.example.screenshoot.app-mergeDebugResources-38:/layout/view_overlay_bubble.xml",
+        "source": "com.example.screenshoot.app-main-41:/layout/view_overlay_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-mergeDebugResources-38:\\layout\\activity_ocr_result.xml",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\layout\\activity_ocr_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-mergeDebugResources-38:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-mergeDebugResources-38:\\layout\\view_mini_display_overlay.xml",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\layout\\view_mini_display_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-mergeDebugResources-38:\\layout\\view_screenshot_display.xml",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\layout\\view_screenshot_display.xml"
+    }
+]

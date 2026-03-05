@@ -1,0 +1,5 @@
+plugins {
+    // Android Gradle plugin for application module
+    id 'com.android.application' version '8.6.0' apply false
+}
+

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\raw_bg_loop.mp4.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\raw\\bg_loop.mp4"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\layout_view_screenshot_display.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\layout\\view_screenshot_display.xml"
+    },
+    {
+        "merged": "com.example.screenshoot.app-debug-39:/raw_bg_loop.mp4.flat",
+        "source": "com.example.screenshoot.app-main-41:/raw/bg_loop.mp4"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\drawable_overlay_action_bg.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\drawable\\overlay_action_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\drawable_overlay_action_ripple.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\drawable\\overlay_action_ripple.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\layout_view_overlay_bubble.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\layout\\view_overlay_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\drawable_overlay_panel_background.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\drawable\\overlay_panel_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\drawable_display_card_background.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\drawable\\display_card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\layout_activity_ocr_result.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\layout\\activity_ocr_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-debug-39:\\layout_view_mini_display_overlay.xml.flat",
+        "source": "C:\\Users\\bandi\\.gradle\\daemon\\8.12\\com.example.screenshoot.app-main-41:\\layout\\view_mini_display_overlay.xml"
+    }
+]
